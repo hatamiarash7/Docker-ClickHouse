@@ -3,7 +3,7 @@ version: "3.9"
 services:
   clickhouse:
     container_name: clickhouse
-    image: clickhouse/clickhouse-server:22.6.4.35
+    image: clickhouse/clickhouse-server:22.7.2.15
     environment:
       - CLICKHOUSE_USER=${CLICKHOUSE_USER}
       - CLICKHOUSE_PASSWORD=${CLICKHOUSE_PASSWORD}
